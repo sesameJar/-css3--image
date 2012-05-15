@@ -1,0 +1,23 @@
+div.container{
+	width:260px;
+	height:260px;
+}
+div.images{
+	width:260px;
+	height:260px;
+}
+div.images div{
+	width:128px;
+	height:128px;
+	overflow: hidden;
+	border:1px solid red;
+
+}
+div.images div img{
+	display: block;
+	-webkit-transition:all 300ms;
+
+}
+div.images div img:hover{
+	-webkit-transform: scale(1.1,1.1);
+}
